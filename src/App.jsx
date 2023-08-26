@@ -1,9 +1,13 @@
 import "./App.css";
+import { Typography } from "@mui/material";
+
+import ProductsPage from "./components/ProductsPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>React | Thinking in React</h1>
+      <Typography variant="h2">React | Thinking in React</Typography>
+      <ProductsPage />
     </div>
   );
 }
